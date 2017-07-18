@@ -20,3 +20,8 @@ if user_input == "run away":
     print("You get away safely and find some donuts. (YOU WINNNNNNNNNNNNN)")
 if user_input == "throw whatever you have":
     print("You only had coins. The noise of the coins frightens the wolves, and they all take turns feasting on you. You died. (YOU LOSEEEEEEEEEEEEE)")
+#Play again option
+if user_input == "throw whatever you have" or user_input == "run away" or user_input == "keep exploring":
+    print("Play again? *Yes* or *No*")
+    user_input = input()
+#if user_input == "Yes"
